@@ -10,6 +10,9 @@
 [![GitHub Releases](https://img.shields.io/github/downloads/2dust/v2rayNG/latest/total?logo=github)](https://github.com/2dust/v2rayNG/releases)
 [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn)
 
+### دانلود آخرین نسخه
+[نسخه 1.10.32](https://github.com/2dust/v2rayNG/releases/latest)
+
 ### کانال تلگرام
 [github_2dust](https://t.me/github_2dust)
 
@@ -32,4 +35,3 @@ aar می‌تواند از پروژه Golang به نام [AndroidLibV2rayLite](h
 v2rayNG می‌تواند روی شبیه‌سازهای اندروید اجرا شود. برای WSA، مجوز VPN باید از طریق دستور زیر اعطا شود:
 `appops set [package name] ACTIVATE_VPN allow`
 ```
-
