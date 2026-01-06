@@ -1,4 +1,4 @@
-```markdown
+
 # v2rayNG
 
 یک کلاینت V2Ray برای اندروید که از [هسته Xray](https://github.com/XTLS/Xray-core) و [هسته v2fly](https://github.com/v2fly/v2ray-core) پشتیبانی می‌کند
@@ -17,7 +17,7 @@
 
 #### Geoip و Geosite
 - فایل‌های geoip.dat و geosite.dat در مسیر `Android/data/com.v2ray.ang/files/assets` قرار دارند (این مسیر ممکن است در برخی دستگاه‌های اندروید متفاوت باشد)
-- قابلیت دانلود نسخه بهبود یافته را از این [مخزن](https://github.com/Loyalsoldier/v2ray-rules-dat) دریافت می‌کند (توجه: نیاز به یک پروکسی فعال دارد)
+- قابلیت دانلود، نسخه بهبود یافته را از این [مخزن](https://github.com/Loyalsoldier/v2ray-rules-dat) دریافت می‌کند (توجه: نیاز به یک پروکسی فعال دارد)
 - آخرین [لیست دامنه](https://github.com/Loyalsoldier/v2ray-rules-dat) و [لیست IP](https://github.com/Loyalsoldier/geoip) رسمی می‌توانند به صورت دستی وارد شوند
 - امکان استفاده از فایل dat شخص ثالث در همان پوشه وجود دارد، مانند [h2y](https://guide.v2fly.org/routing/sitedata.html#%E5%A4%96%E7%BD%AE%E7%9A%84%E5%9F%9F%E5%90%8D%E6%96%87%E4%BB%B6)
 
@@ -32,3 +32,4 @@ aar می‌تواند از پروژه Golang به نام [AndroidLibV2rayLite](h
 v2rayNG می‌تواند روی شبیه‌سازهای اندروید اجرا شود. برای WSA، مجوز VPN باید از طریق دستور زیر اعطا شود:
 `appops set [package name] ACTIVATE_VPN allow`
 ```
+
