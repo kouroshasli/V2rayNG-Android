@@ -1,6 +1,7 @@
+```markdown
 # v2rayNG
 
-A V2Ray client for Android, support [Xray core](https://github.com/XTLS/Xray-core) and [v2fly core](https://github.com/v2fly/v2ray-core)
+یک کلاینت V2Ray برای اندروید که از [هسته Xray](https://github.com/XTLS/Xray-core) و [هسته v2fly](https://github.com/v2fly/v2ray-core) پشتیبانی می‌کند
 
 [![API](https://img.shields.io/badge/API-21%2B-yellow.svg?style=flat)](https://developer.android.com/about/versions/lollipop)
 [![Kotlin Version](https://img.shields.io/badge/Kotlin-2.3.0-blue.svg)](https://kotlinlang.org)
@@ -9,24 +10,25 @@ A V2Ray client for Android, support [Xray core](https://github.com/XTLS/Xray-cor
 [![GitHub Releases](https://img.shields.io/github/downloads/2dust/v2rayNG/latest/total?logo=github)](https://github.com/2dust/v2rayNG/releases)
 [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn)
 
-### Telegram Channel
+### کانال تلگرام
 [github_2dust](https://t.me/github_2dust)
 
-### Usage
+### نحوه استفاده
 
-#### Geoip and Geosite
-- geoip.dat and geosite.dat files are in `Android/data/com.v2ray.ang/files/assets` (path may differ on some Android device)
-- download feature will get enhanced version in this [repo](https://github.com/Loyalsoldier/v2ray-rules-dat) (Note it need a working proxy)
-- latest official [domain list](https://github.com/Loyalsoldier/v2ray-rules-dat) and [ip list](https://github.com/Loyalsoldier/geoip) can be imported manually
-- possible to use third party dat file in the same folder, like [h2y](https://guide.v2fly.org/routing/sitedata.html#%E5%A4%96%E7%BD%AE%E7%9A%84%E5%9F%9F%E5%90%8D%E6%96%87%E4%BB%B6)
+#### Geoip و Geosite
+- فایل‌های geoip.dat و geosite.dat در مسیر `Android/data/com.v2ray.ang/files/assets` قرار دارند (این مسیر ممکن است در برخی دستگاه‌های اندروید متفاوت باشد)
+- قابلیت دانلود نسخه بهبود یافته را از این [مخزن](https://github.com/Loyalsoldier/v2ray-rules-dat) دریافت می‌کند (توجه: نیاز به یک پروکسی فعال دارد)
+- آخرین [لیست دامنه](https://github.com/Loyalsoldier/v2ray-rules-dat) و [لیست IP](https://github.com/Loyalsoldier/geoip) رسمی می‌توانند به صورت دستی وارد شوند
+- امکان استفاده از فایل dat شخص ثالث در همان پوشه وجود دارد، مانند [h2y](https://guide.v2fly.org/routing/sitedata.html#%E5%A4%96%E7%BD%AE%E7%9A%84%E5%9F%9F%E5%90%8D%E6%96%87%E4%BB%B6)
 
-### More in our [wiki](https://github.com/2dust/v2rayNG/wiki)
+### اطلاعات بیشتر در [ویکی](https://github.com/2dust/v2rayNG/wiki) ما
 
-### Development guide
+### راهنمای توسعه
 
-Android project under V2rayNG folder can be compiled directly in Android Studio, or using Gradle wrapper. But the v2ray core inside the aar is (probably) outdated.  
-The aar can be compiled from the Golang project [AndroidLibV2rayLite](https://github.com/2dust/AndroidLibV2rayLite) or [AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite).
-For a quick start, read guide for [Go Mobile](https://github.com/golang/go/wiki/Mobile) and [Makefiles for Go Developers](https://tutorialedge.net/golang/makefiles-for-go-developers/)
+پروژه اندروید در پوشه V2rayNG می‌تواند مستقیماً در Android Studio یا با استفاده از Gradle wrapper کامپایل شود. اما هسته v2ray داخل aar (احتمالاً) قدیمی است.  
+aar می‌تواند از پروژه Golang به نام [AndroidLibV2rayLite](https://github.com/2dust/AndroidLibV2rayLite) یا [AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite) کامپایل شود.
+برای شروع سریع، راهنمای [Go Mobile](https://github.com/golang/go/wiki/Mobile) و [Makefiles برای توسعه‌دهندگان Go](https://tutorialedge.net/golang/makefiles-for-go-developers/) را بخوانید
 
-v2rayNG can run on Android Emulators. For WSA, VPN permission need to be granted via
+v2rayNG می‌تواند روی شبیه‌سازهای اندروید اجرا شود. برای WSA، مجوز VPN باید از طریق دستور زیر اعطا شود:
 `appops set [package name] ACTIVATE_VPN allow`
+```
