@@ -24,7 +24,10 @@
 ### 🌐 کانال اصلی پروژه
 **[@github_2dust](https://t.me/github_2dust)**
 
-### 🇮🇷 کانال فارسی و پشتیبانی
+### 💬 گروه چت
+**[@v2rayn](https://t.me/v2rayn)**
+
+### 📱 کانال ما
 **[@kooriasli](https://t.me/kooriasli)**
 
 ---
@@ -71,6 +74,6 @@ appops set [package name] ACTIVATE_VPN allow
 
 ## 📱 به ما بپیوندید
 - **کانال اصلی:** [@github_2dust](https://t.me/github_2dust)
-- **کانال فارسی:** [@kooriasli](https://t.me/kooriasli)
 - **گروه چت:** [@v2rayn](https://t.me/v2rayn)
+- **کانال ما:** [@kooriasli](https://t.me/kooriasli)
 ```
